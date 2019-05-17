@@ -1,6 +1,6 @@
 # Docker PHP Sandbox
 
-![GitHub](https://img.shields.io/github/license/l-vo/docker-php-sandbox.svg)
+![GitHub](https://img.shields.io/github/license/l-vo/docker-php-sandbox.svg) ![GitHub release](https://img.shields.io/github/release/l-vo/docker-php-sandbox.svg)
 
 This project provides containers with any PHP version for sandboxing purpose. It allows two main usages:
 
