@@ -1,5 +1,9 @@
 .DEFAULT_GOAL := help
+
 PHP_VERSION := 7.3
+-include .env
+export $(shell if [ -f .env ]; then sed 's/=.*//' .env; fi;)
+
 SHELL := /bin/bash
 
 .PHONY: clean exec logs new run start status stop
