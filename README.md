@@ -64,3 +64,9 @@ $ make run PHP_VERSION=5.6  # Command line
 ```
 
 You can use any version that have a matching PHP-FPM image (for instance if the tag 7.2.18-fpm exists, you can use the 7.2.18 version) in the [PHP official docker repository](https://hub.docker.com/_/php?tab=tags).
+
+## Using custom PHP default version
+If you need to use a another default PHP version, create at the root of the project a `.env` file with your default PHP version as `PHP_VERSION` value:
+```.dotenv
+PHP_VERSION=7.1
+``` 
